@@ -4,6 +4,11 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>PaymentDomainLab03</PackageId>
+    <Authors>UPT-FAING-EPIS</Authors>
+    <Description>Domain logic for Payment operations</Description>
+    <PackageVersion>1.0.0</PackageVersion>
   </PropertyGroup>
 
 </Project>

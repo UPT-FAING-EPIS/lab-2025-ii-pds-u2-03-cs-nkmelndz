@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Payment.Domain")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("UPT-FAING-EPIS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Domain logic for Payment operations")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98845e72386932bf4749b4a4342b339a7fb10184")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28f2d1f1e74d44197b3b549d328103d7a29fd4f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Payment.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Payment.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

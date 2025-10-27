@@ -17,7 +17,7 @@ jobs:
     strategy:
       matrix:
         project: [
-          ./Payment/ATM/ATM.Domain/ATM.Domain.csproj,
+          ./ATM/ATM.Domain/ATM.Domain.csproj,
           ./Payment/Payment.Domain/Payment.Domain.csproj
         ]
 

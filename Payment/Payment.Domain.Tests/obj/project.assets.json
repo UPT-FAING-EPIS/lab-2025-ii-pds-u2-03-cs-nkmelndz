@@ -347,14 +347,14 @@
           }
         }
       },
-      "Payment.Domain/1.0.0": {
+      "PaymentDomainLab03/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
-          "bin/placeholder/Payment.Domain.dll": {}
+          "bin/placeholder/PaymentDomainLab03.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Payment.Domain.dll": {}
+          "bin/placeholder/PaymentDomainLab03.dll": {}
         }
       }
     }
@@ -804,7 +804,7 @@
         "version.txt"
       ]
     },
-    "Payment.Domain/1.0.0": {
+    "PaymentDomainLab03/1.0.0": {
       "type": "project",
       "path": "../Payment.Domain/Payment.Domain.csproj",
       "msbuildProject": "../Payment.Domain/Payment.Domain.csproj"
@@ -816,7 +816,7 @@
       "NUnit >= 4.2.2",
       "NUnit.Analyzers >= 4.4.0",
       "NUnit3TestAdapter >= 4.6.0",
-      "Payment.Domain >= 1.0.0",
+      "PaymentDomainLab03 >= 1.0.0",
       "coverlet.collector >= 6.0.2"
     ]
   },

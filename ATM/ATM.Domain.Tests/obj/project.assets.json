@@ -826,11 +826,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain.Tests/ATM.Domain.Tests.csproj",
+      "projectUniqueName": "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/ATM/ATM.Domain.Tests/ATM.Domain.Tests.csproj",
       "projectName": "ATM.Domain.Tests",
-      "projectPath": "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain.Tests/ATM.Domain.Tests.csproj",
+      "projectPath": "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/ATM/ATM.Domain.Tests/ATM.Domain.Tests.csproj",
       "packagesPath": "/Users/n/.nuget/packages/",
-      "outputPath": "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain.Tests/obj/",
+      "outputPath": "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/ATM/ATM.Domain.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/n/.nuget/NuGet/NuGet.Config"
@@ -845,8 +845,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain/ATM.Domain.csproj": {
-              "projectPath": "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain/ATM.Domain.csproj"
+            "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/ATM/ATM.Domain/ATM.Domain.csproj": {
+              "projectPath": "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/ATM/ATM.Domain/ATM.Domain.csproj"
             }
           }
         }

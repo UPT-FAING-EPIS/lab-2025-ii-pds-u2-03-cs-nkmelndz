@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zdfE90bFQwg=",
+  "dgSpecHash": "iMnnBwZSbrA=",
   "success": true,
-  "projectFilePath": "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain.Tests/ATM.Domain.Tests.csproj",
+  "projectFilePath": "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/ATM/ATM.Domain.Tests/ATM.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/n/.nuget/packages/coverlet.collector/6.0.2/coverlet.collector.6.0.2.nupkg.sha512",
     "/Users/n/.nuget/packages/microsoft.codecoverage/17.12.0/microsoft.codecoverage.17.12.0.nupkg.sha512",

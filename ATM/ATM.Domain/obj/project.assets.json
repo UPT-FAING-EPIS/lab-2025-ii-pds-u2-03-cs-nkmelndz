@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain/ATM.Domain.csproj",
+      "projectUniqueName": "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/ATM/ATM.Domain/ATM.Domain.csproj",
       "projectName": "ATM.Domain",
-      "projectPath": "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain/ATM.Domain.csproj",
+      "projectPath": "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/ATM/ATM.Domain/ATM.Domain.csproj",
       "packagesPath": "/Users/n/.nuget/packages/",
-      "outputPath": "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain/obj/",
+      "outputPath": "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/ATM/ATM.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/n/.nuget/NuGet/NuGet.Config"

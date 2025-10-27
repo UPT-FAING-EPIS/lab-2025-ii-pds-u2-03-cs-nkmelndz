@@ -346,6 +346,16 @@
             "related": ".xml"
           }
         }
+      },
+      "Payment.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Payment.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Payment.Domain.dll": {}
+        }
       }
     }
   },
@@ -793,6 +803,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Payment.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Payment.Domain/Payment.Domain.csproj",
+      "msbuildProject": "../Payment.Domain/Payment.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -801,6 +816,7 @@
       "NUnit >= 4.2.2",
       "NUnit.Analyzers >= 4.4.0",
       "NUnit3TestAdapter >= 4.6.0",
+      "Payment.Domain >= 1.0.0",
       "coverlet.collector >= 6.0.2"
     ]
   },
@@ -828,7 +844,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/Payment.Domain/Payment.Domain.csproj": {
+              "projectPath": "/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/Payment.Domain/Payment.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

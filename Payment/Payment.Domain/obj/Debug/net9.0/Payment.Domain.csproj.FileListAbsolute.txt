@@ -1,0 +1,12 @@
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/Payment.Domain/bin/Debug/net9.0/Payment.Domain.deps.json
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/Payment.Domain/bin/Debug/net9.0/Payment.Domain.dll
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/Payment.Domain/bin/Debug/net9.0/Payment.Domain.pdb
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/Payment.Domain/obj/Debug/net9.0/Payment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/Payment.Domain/obj/Debug/net9.0/Payment.Domain.AssemblyInfoInputs.cache
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/Payment.Domain/obj/Debug/net9.0/Payment.Domain.AssemblyInfo.cs
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/Payment.Domain/obj/Debug/net9.0/Payment.Domain.csproj.CoreCompileInputs.cache
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/Payment.Domain/obj/Debug/net9.0/Payment.Domain.sourcelink.json
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/Payment.Domain/obj/Debug/net9.0/Payment.Domain.dll
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/Payment.Domain/obj/Debug/net9.0/refint/Payment.Domain.dll
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/Payment.Domain/obj/Debug/net9.0/Payment.Domain.pdb
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/Payment.Domain/obj/Debug/net9.0/ref/Payment.Domain.dll

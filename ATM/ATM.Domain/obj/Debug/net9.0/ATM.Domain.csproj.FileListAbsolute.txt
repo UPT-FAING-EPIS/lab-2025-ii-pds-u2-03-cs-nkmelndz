@@ -1,0 +1,12 @@
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain/bin/Debug/net9.0/ATM.Domain.deps.json
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain/bin/Debug/net9.0/ATM.Domain.dll
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain/bin/Debug/net9.0/ATM.Domain.pdb
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain/obj/Debug/net9.0/ATM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain/obj/Debug/net9.0/ATM.Domain.AssemblyInfoInputs.cache
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain/obj/Debug/net9.0/ATM.Domain.AssemblyInfo.cs
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain/obj/Debug/net9.0/ATM.Domain.csproj.CoreCompileInputs.cache
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain/obj/Debug/net9.0/ATM.Domain.sourcelink.json
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain/obj/Debug/net9.0/ATM.Domain.dll
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain/obj/Debug/net9.0/refint/ATM.Domain.dll
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain/obj/Debug/net9.0/ATM.Domain.pdb
+/Users/n/Desktop/lab-2025-ii-pds-u2-03-cs-nkmelndz/Payment/ATM/ATM.Domain/obj/Debug/net9.0/ref/ATM.Domain.dll

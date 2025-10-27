@@ -1,0 +1,89 @@
+name: Package and Publish NuGet
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  packages: write
+
+jobs:
+  test-and-analyze:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        project: [
+          ./Payment/ATM/ATM.Domain/ATM.Domain.csproj,
+          ./Payment/Payment.Domain/Payment.Domain.csproj
+        ]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore ${{ matrix.project }}
+
+      - name: Run unit tests with coverage
+        run: dotnet test ${{ matrix.project }} --collect:"XPlat Code Coverage"
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results-${{ matrix.project }}
+          path: '**/TestResults/*.trx'
+
+      - name: Install SonarCloud Scanner
+        run: dotnet tool install --global dotnet-sonarscanner
+
+      - name: Analyze with SonarCloud
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        run: |
+          export PATH="$PATH:$HOME/.dotnet/tools"
+          dotnet sonarscanner begin /k:"si889_u2lab03" /o:"si889" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+          dotnet build ${{ matrix.project }}
+          dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+
+  package-and-publish:
+    needs: test-and-analyze
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        project: [
+          ./Payment/ATM/ATM.Domain/ATM.Domain.csproj,
+          ./Payment/Payment.Domain/Payment.Domain.csproj
+        ]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore ${{ matrix.project }}
+
+      - name: Build project
+        run: dotnet build ${{ matrix.project }} --configuration Release
+
+      - name: Pack NuGet package
+        run: dotnet pack ${{ matrix.project }} --configuration Release --output ./packages/${{ matrix.project }}
+
+      - name: Publish NuGet package to GitHub Packages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: dotnet nuget push ./packages/${{ matrix.project }}/*.nupkg --source https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json --api-key "${{ secrets.GITHUB_TOKEN }}"

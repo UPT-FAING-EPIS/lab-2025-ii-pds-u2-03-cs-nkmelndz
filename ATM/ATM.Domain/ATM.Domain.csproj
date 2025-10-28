@@ -9,6 +9,7 @@
     <Authors>UPT-FAING-EPIS</Authors>
     <Description>Domain logic for ATM operations</Description>
     <PackageVersion>1.0.0</PackageVersion>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
 </Project>

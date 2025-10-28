@@ -1,4 +1,5 @@
-```mermaid
+```mermaid.md
+
 classDiagram
 
 class Account
